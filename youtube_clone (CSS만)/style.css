@@ -1,0 +1,127 @@
+:root {
+  /* Color */
+  --white-color: #fff;
+  --black-color: #140a00;
+  --blue-color: #045fd4;
+  --red-color: #ff0000;
+  --grey-dark-color: #909090;
+  --grey-light-color: #e0e0e0;
+
+  /* Size */
+  --spacing: 12px;
+  --spacing-small: 6px;
+  --avatar-size: 36px;
+
+  /* Font Size */
+  --font-large: 20px;
+  --font-regular: 16px;
+  --font-medium: 14px;
+  --font-small: 12px;
+  --font-micro: 10px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+video {
+  width: 100vh;
+  height: 80vh;
+}
+
+header {
+  display: flex;
+  color: white;
+  background-color: black;
+}
+
+.fa-youtube {
+  color: red;
+}
+
+.hashtags {
+  color: #045fd4;
+  display: flex;
+  flex-wrap : nowrap;
+}
+
+.cat {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+img {
+  width: 200px;
+  height: 150px;
+}
+
+.fa-search {
+  position: absolute;
+  right: 5px;
+  top: 4px;
+}
+
+.actions {
+  display: flex;
+  margin: 10px 10px;
+}
+
+hr {
+  margin: 10px 10px;
+}
+button {
+  width: 100px;
+  height: 50px;
+}
+
+.channel {
+  display: flex;
+  justify-content:space-between;
+}
+
+.metadata_2 {
+  display: flex;
+  /*가로 정렬*/
+  flex-direction: row;
+}
+
+.subscribe {
+  position: relative;
+  right: 20px;
+  top: 25px;
+}
+
+.info {
+  display: flex;
+
+  /*세로 정렬*/
+  flex-direction: column;
+}
+
+
+.item {
+  display: flex;
+  flex-direction: row;
+}
+
+.itemInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+   list-style:none;
+}
+
+@media screen and (min-width:1280px) {
+
+  
+
+}
