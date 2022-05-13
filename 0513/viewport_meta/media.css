@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* 현재 보고 있는 화면에 조건을 줄 수 있음 */
+
+/*
+@media screen and(min-width:768px){
+    body {
+        background-color: grey;
+    }
+}
+
+@media screen and(min-width:500px) {
+    body {
+        background-color: red;
+    }
+} */
+
+body {
+    color: #000;
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-color: aquamarine;
+    color: white;
+}
+
+.box::after {
+    content: "Mobile";
+}
+
+@media screen and (min-width:768px) {
+
+    .box {
+        background-color: black;
+    }
+
+    .box::after {
+        content:"Mobile";
+    }
+
+}
+
+@media screen and (min-width:1280px) {
+
+    .box {
+        background-color: blue;
+    }
+
+    .box::after {
+        content:"Tablet";
+    }
+
+}
