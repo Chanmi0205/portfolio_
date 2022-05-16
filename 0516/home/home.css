@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+      position: relative;
+      height: 100vh;
+  }
+
+  footer {
+      padding: 10px 30px;
+      display: flex;
+      justify-content: center;
+  }
+
+  footer div {
+      bottom: 0;
+      position: absolute;
+  }
+
+  section form button {
+      margin-left: 10px;
+  }
+
+  section form label:hover {
+      color: blue;
+  }
+
+  section form label:active {
+      color: aqua;
+  }
+
+  a {
+      text-decoration: none;
+  }
+  
