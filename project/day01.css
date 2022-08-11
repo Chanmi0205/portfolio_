@@ -1,0 +1,18 @@
+.parents {
+    display: flex;
+    flex-direction: row;
+    flex-wrap : wrap;
+    justify-content: space-between;
+}
+
+.a {
+    background-color: gray;
+    width: 300px;
+    height: 300px;
+}
+
+.b {
+    background-color: gray;
+    width: 300px;
+    height: 300px;  
+}

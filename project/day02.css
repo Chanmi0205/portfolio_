@@ -1,0 +1,68 @@
+body {
+    background-color: black;
+}
+
+.parents {
+    display: grid;
+    grid-template-rows: 300px 300px;
+    grid-template-columns: 300px 300px 300px;
+    gap:10px;
+}
+
+.a {
+    background-color: gray;
+    width: 300px;
+    height: 300px;
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.b {
+    background-color: gray;
+    width: 300px;
+    height: 300px;  
+    grid-row: 1/2;
+    grid-column: 2/3;
+}
+
+
+.c {
+    background-color: gray;
+    width: 300px;
+    height: 300px;  
+    grid-row: 1/2;
+    grid-column: 3/4;
+}
+
+
+.d {
+    background-color: gray;
+    width: 300px;
+    height: 300px;  
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+
+.e {
+    background-color: gray;
+    width: 300px;
+    height: 300px;
+    grid-row: 2/3;
+    grid-column: 2/3;  
+}
+
+
+.f {
+    background-color: gray;
+    width: 300px;
+    height: 300px;  
+    grid-row: 2/3;
+    grid-column: 3/4;
+}
+
+@media screen and (max-width:768px) {
+    body {
+        background-color: red;
+    }
+}
